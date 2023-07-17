@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mast kalandar | Restaurant</title>
+    <link rel="icon" href="./Images/Restaurants/download.png" type="image/icon type">
+<link rel="stylesheet" href="mastkal.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!--Header section start-->
+    <header>
+        <a href="#" class="logo"><i class="fa fa-utensils"></i>Orderly</a>
+        <nav class="navbar">
+            <a class="active" href="./home.html">Home</a>
+            <a href="restaurants.html">Restaurants</a>
+            <a href="#" onclick="openAbout()">about</a>
+            <a href="./contact.html" >Contact us</a>
+            <a class="feed" id="feedback">feedback</a>
+            <a href="#">Orders</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <a href="login.html" class="fas fa-sign-in-alt"></a>
+            
+        </div>
+
+         <!--search form-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close1"></i>
+    </form>
+    <!--Search Form ends-->
+    </header>
+
+<!--Rating Form starts-->
+
+<div class="back">
+    <div class="container1" id="co1">
+        <div class="post">
+            <div class="text">Thanks for Rating us!</div>
+            <div class="edit">Edit</div>
+            <i class="fas fa-times" id="close"></i>
+    
+        </div>
+        <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+            <i class="fas fa-times" id="close"></i>
+            <h4></h4>
+            <div class="textarea">
+                <textarea cols="30" placeholder="Describe your experience"></textarea>
+    
+            </div>
+            
+            <div class="btn">
+                <button type="submit">Post</button>
+            </div>
+        </form>
+        </div>    
+    </div>
+    </div>
+<!--Rating form ends-->
+<!--side bar-->
+
+<nav class="sidebar">
+    <div class="text">
+    <a href="mastkal.html"><i class="fa fa-home"></i></a>
+    <ul>
+        
+        <li><a href="#fast" onclick="mybreakfast()">Break Fast</a></li>
+    </ul>
+</div>
+</nav>
+<!--Side bar ends-->
+<section class="home" id="home">
+    <div class="barb">
+    <h2><img src="./Images/Restaurants/mastkal.jpg" height="150"></h2>
+    <div class="cont">
+        <iframe width="350" height="315"
+src="https://www.youtube.com/embed/Dc9UEGdRyb8?autoplay=1&mute=1&loop=1&playlist=Dc9UEGdRyb8&loop=1">
+</iframe>
+        </div>
+        </div>
+</section>
+<section class="breakfast" id="fast">
+    <h2 class="breakfast1">Mast Kalandar</h2>
+    <hr class="line">
+    <h4>Snack's</h4>
+    <div class="box-break-fast">
+        <div class="box">
+            <img src="./Images/Dishes/dosa.jpg">
+            <h3>Plain Dosa</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹40</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Images/Dishes/masala-dosa.jpg">
+            <h3>Masala Dosa</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹50</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Images/Dishes/onion dosa.jpg">
+            <h3>Onion Dosa</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹60</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Images/Dishes/idli-dosa.jpg">
+            <h3>Idli</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹40</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Images/Dishes/puri.jpg">
+            <h3>Puri</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹30</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Images/Dishes/uttapam.jpg">
+            <h3>Uttapam</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹45</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Images/Dishes/vada.jpg">
+            <h3>Vada</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹25</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Images/Dishes/mysorebonda.jpg">
+            <h3>Mysore Bonda</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+            <span>₹30</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+            
+        </div>
+
+    </div>
+</section>
+<div id="about" class="about">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="about-overlay">
+        <h1>About us</h1>
+        <p>Welcome to Orderly, your one-stop-shop for all your food ordering needs! At Orderly,<br> we strive to make the process of ordering and delivering food as easy and hassle-free as possible.
+            <br> Our website is designed with the customer in mind, making it easy to navigate and place orders with just a few clicks of a button. Whether you're craving pizza, sushi, or Indian cuisine, we've got you covered with a wide variety of restaurants to choose from.
+              Our goal at Orderly is to simplify the food ordering process and eliminate the stress that often comes with it. With our user-friendly website, you can browse through menus,
+             select your desired items, and place your order in a matter of minutes. Once your order is placed, we take care of the rest.<br> We work with top-rated restaurants in your area to ensure that your food is prepared with the highest quality ingredients and delivered to your doorstep in a timely manner.
+            
+            The name Orderly reflects our commitment to making the food ordering process as orderly and efficient as possible. We understand that your time is valuable, and we want to ensure that you can get the food you crave without any unnecessary hassle. So why wait? Visit our website today and experience the convenience and ease of ordering with Orderly. </p>
+    </div>
+</div>
+
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            
+            <div class="footer-col">
+                <ul>
+                    <i class="fa fa-utensils"></i>
+                    <span>Orderly</span>
+                </ul>
+                <div class="map">
+                    <ul>
+                        <i class="fa fa-map-marker"></i>
+                            <span>GLA University, Mathura
+                            </span>
+                    </ul>
+                    </div>
+                <div class="mail">
+                    <ul>
+                        <i class="fas fa-inbox"></i>
+                        <span>
+                            support@orderly.com
+                        </span>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Orderly</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Payment policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">My orders</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment options</a></li>
+
+                </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Order Now</h4>
+                    <ul>
+                        <li><a href="#">Biryani's</a></li>
+                        <li><a href="#">Restaurants</a></li>
+                        <li><a href="#">Starters</a></li>
+                        <li><a href="#">Fast food</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+            
+
+</footer>
+
+<!--Home  ends-->
+
+
+<!--Java Script-->
+    <script>
+        let menu = document.querySelector('#menu-bars');
+        let navbar = document.querySelector('.navbar');
+        
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+        window.onscroll=() => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+        document.querySelector('#search-icon').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector('#close1').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector("#feedback").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+        document.querySelector("#close").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+
+    }
+    function myfun(){
+        document.getElementById("biryani").style.display="block";
+    }
+    function myfunction(){
+        document.getElementById("start").style.display="block";
+    }
+    function myroti(){
+        document.getElementById("roti").style.display="block";
+    }
+    function mycurry(){
+        document.getElementById("curry").style.display="block";
+    }
+    function mybreakfast(){
+        document.getElementById("fast").style.display="block";
+    }
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+    
+        btn.onclick = () =>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = () =>{
+            widget.style.display = "block";
+            post.style.display = "none";
+        }
+        return false;
+    }
+         function openAbout(){
+        document.getElementById("about").style.width = "100%";
+
+    }
+    function closeNav(){
+        document.getElementById("about").style.width = "0%";
+    }
+   
+       
+    </script>
+    <!--JavaScript ends -->
+
+</body>
+</html>
